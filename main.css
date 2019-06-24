@@ -2,6 +2,7 @@ body{
   box-sizing: border-box;
   margin:0;
   padding:0;
+  text-align: center;
 }
 
 img {
@@ -13,7 +14,8 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-content: space-around;
+  margin: 0 auto;
 }
 
 .projectTitle{
@@ -24,9 +26,9 @@ img {
 .projectDiv{
   border: 2px solid grey;
   border-radius: 4px;
-  text-align: center;
   width: 48%;
-  margin: 1px;
+  max-width: 600px;
+  margin: 1px auto;
   padding: 0;
 }
 
@@ -34,15 +36,8 @@ img {
   margin: 0;
 }
 
-
-
-
-
 @media only screen and (max-width: 600px) {
   .projectDiv{
-    border: 2px solid grey;
-    border-radius: 4px;
-    text-align: center;
     width: 100%;
   }
 
