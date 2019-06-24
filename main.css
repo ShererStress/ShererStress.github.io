@@ -9,6 +9,10 @@ img {
   width: 30%;
 }
 
+p{
+  margin: 0 auto;
+}
+
 #projectBox{
   width: 100%;
   display: flex;
